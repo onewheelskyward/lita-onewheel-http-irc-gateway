@@ -3,8 +3,8 @@
 [![Build Status](https://travis-ci.org/onewheelskyward/lita-onewheel-http-irc-gateway.png?branch=master)](https://travis-ci.org/onewheelskyward/lita-onewheel-http-irc-gateway)
 [![Coverage Status](https://coveralls.io/repos/onewheelskyward/lita-onewheel-http-irc-gateway/badge.png)](https://coveralls.io/r/onewheelskyward/lita-onewheel-http-irc-gateway)
 
-TODO: Add a description of the plugin.
-
+A proof-of-concept to allow http POSTs to display in IRC.
+ 
 ## Installation
 
 Add lita-onewheel-http-irc-gateway to your Lita instance's Gemfile:
@@ -15,8 +15,8 @@ gem "lita-onewheel-http-irc-gateway"
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+n/a
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+Takes a POST on /yo and blasts it into IRC.  Well, the first 100 chars that is.  Just a little safety measure.  This is not production-ready code, use it as you see fit.
